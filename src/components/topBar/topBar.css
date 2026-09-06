@@ -1,0 +1,37 @@
+.topBar{
+    margin: 16px 0px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.search{
+    flex: 1;
+    background-color: var(--color-accent);
+    opacity: 0.7;
+    border-radius: 16px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.search.dark-mode{
+    background-color: var(--color-accent-dark);
+}
+
+.search input{
+    flex: 1;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.search input[type="text"]{
+    color: var(--color-text);
+}
+
+.search input[type="text"]::placeholder{
+    color: var(--color-text);
+    opacity: 1;
+}
